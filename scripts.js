@@ -1,27 +1,36 @@
 console.log('JavaScript Types Excercise');
 
 function exercise1() {
-  // Declare and instantiate a number and return it
+  const number = 1;
+  return number;
 }
 
 function exercise2() {
-  // Declare and instantiate a floating point number that is not a whole number and return it
+  const number = 1.5;
+  return number;
 }
 
 function exercise3() {
-  // Declare and instantiate a string "Hello World!" and return it
+  const message = "Hello World";
+  return message;
 }
 
 function exercise4() {
-  // Declare and instantiate an array containing the string "Hello World!" and the number 4 and return it
+  const groupedItems = ["cat", "Hello World", 4];
+  return groupedItems;
 }
 
 function exercise5() {
-  // Declare and instantiate an object containing the key-value pairs key1 -> "Hello World!" and key2 -> 4, and return it
+  const object = {
+    key1 : "Hello World",
+    key2 : 4,
+  }
+  return object;
 }
 
 function exercise6() {
-  // Declare and instantiate a boolean value 'false' and return it
+  const value = false;
+  return value;
 }
 
 console.log('This should be a number:', exercise1());
